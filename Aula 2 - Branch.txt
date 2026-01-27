@@ -1,1 +1,2 @@
 Explicação de branch na aula 2
+pr_template
