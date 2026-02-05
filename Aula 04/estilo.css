@@ -30,3 +30,72 @@
 .coluna-final{
     align-items: end;
 }
+
+.quadrado-laranja{
+    height: 50px;
+    width: 50px;
+    background-color: orange;
+}
+
+.q1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.q2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.metade{
+    height: 50%;
+}
+
+.coluna{
+    display: flex;
+    flex-direction: column;
+}
+
+.q3{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+.q4{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+.q5{
+    display: flex;
+    justify-content: center;
+}
+
+.terco{
+    height: 33.3333%;
+}
+
+.q6{
+    display: flex;
+    justify-content: center;
+}
+
+.q7{
+    display: flex;
+    justify-content: space-between;
+}
+
+.q8{
+    display: flex;
+    justify-content: end;
+}
+
+.q9{
+    display: flex;
+    align-items: end;
+}
