@@ -1,16 +1,9 @@
-function somar(){
-    let numero1 = Number(document.getElementById('n1').value)
-    let numero2 = Number(document.querySelector('#n2').value)
+let square = document.getElementById('q1')
+let input = document.getElementById('color')
 
-    let resposta = document.querySelector('#resposta')
-
-    let soma = numero1 + numero2
-
-    resposta.innerHTML = soma
+function changeColor(e){
+    let color = e.target.value
+    square.style.backgroundColor = color
 }
 
-function alterarImagem(){
-    let imagem = document.getElementById('imagem')
-
-    imagem.setAttribute('src', "https://i0.statig.com.br/bancodeimagens/2f/ym/i8/2fymi85z5vo5pcl5rsnsr3xgi.jpg")
-}
+input.addEventListener('input', changeColor)
