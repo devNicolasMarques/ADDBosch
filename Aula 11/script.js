@@ -5,7 +5,7 @@ class Automovel {
     cor
     ano
     motor
-
+    
     constructor(modelo, marca, cor, ano, motor){
         this.modelo = modelo
         this.marca = marca
@@ -48,3 +48,5 @@ console.log(carro.abrirPortas())
 
 console.log(moto.acelerar())
 console.log(moto.grau())
+
+carro.modelo = "Maria"

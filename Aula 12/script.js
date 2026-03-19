@@ -17,8 +17,8 @@ class Conta {
         return this.#saldo;
     }
 
-    set saldo(nome) {
-        return this.#titular = nome
+    cadastrar(nome, email, senha) {
+        this.#titular = nome
     }
 
     depositar(n_conta, agencia, valor){
@@ -34,6 +34,8 @@ class Conta {
 
 const c1 = new Conta("1234", "111", "40028922", "Diego", 2000)
 
-c1.depositar("40028922", "111", -500)
+c1.depositar("40028922", "111", -100)
 
 console.log(c1.saldo)
+
+c1.titular
