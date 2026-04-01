@@ -1,12 +1,13 @@
 const users = []
 
 class User {
+
     #id
     #name
     #email
     #password
     #active
-    
+
     constructor(id, name, email, password){
 
         if(!name || !email.includes('@') || password.length < 6 ){
@@ -60,6 +61,7 @@ class User {
 }
 
 class Client extends User{
+    
     constructor(id, name, email, password){
         super(id, name, email, password)
     }
