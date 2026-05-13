@@ -8,7 +8,7 @@ export const getPeople = (req, res) => {
         return res.status(200).send(results)
     })
 }
-
+//test
 export const createUser = (req, res) => {
     const { name } = req.body;
     try{
